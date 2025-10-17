@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_19288469"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-04-27-10:11:15)
+    (utime 2024-04-27-10:11:15)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "DMNH4005SCTQ")
+)
+
+
+(pinAssign "ECS_19288469"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-04-27-10:11:15)
+    (utime 2024-04-27-10:11:15)
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "D") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "S") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_19288469")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "DMNH4005SCTQ")
+)
+
+
+(part "DMNH4005SCTQ"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-04-27-10:11:15)
+    (utime 2024-04-27-10:11:15)
+    (packageRef "DMNH4005SCTQ")
+    (pinAssignRef "ECS_19288469")
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "D") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "S") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" "40V +175C N-CHANNEL ENHANCEMENT MODE MOSFET")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Manufacturer_Name" "Diodes Incorporated")
+    (property "Manufacturer_Part_Number" "DMNH4005SCTQ")
+    (property "Datasheet_Link" "https://www.diodes.com//assets/Datasheets/DMNH4005SCTQ.pdf")
+    (property "compAreaTopHeight" 4.82)
+)
+
+

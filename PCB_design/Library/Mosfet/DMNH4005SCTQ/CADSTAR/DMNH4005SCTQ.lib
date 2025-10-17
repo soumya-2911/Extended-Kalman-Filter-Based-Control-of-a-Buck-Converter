@@ -1,0 +1,16 @@
+.DMNH4005SCTQ :1 ;40V +175C N-CHANNEL ENHANCEMENT MODE MOSFET
+TO254P482X1016X2221-3P
+*STM Q
+*NGS
+*PLB 1="G" 2="D" 3="S"
+*MXP 3
+*DFN DMNH4005SCTQ
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (Diodes Incorporated)
+~!Manufacturer_Part_Number (DMNH4005SCTQ)
+~!Link Datasheet (https://www.diodes.com//assets/Datasheets/DMNH4005SCTQ.pdf)
+~!Height (4.82mm)
+~!3D_Model (DMNH4005SCTQ)
+DMNH4005SCTQ
+1.1!U 2.1!U 3.1!U 

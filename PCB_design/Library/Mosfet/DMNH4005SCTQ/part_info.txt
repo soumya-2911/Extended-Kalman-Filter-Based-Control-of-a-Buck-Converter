@@ -1,0 +1,9 @@
+Manufacturer=Diodes Incorporated
+PartNumber=DMNH4005SCTQ
+PartCategory=MOSFET (N-Channel)
+PackageCategory=Transistor Outline, Vertical
+PinCount=3
+Version=2.1
+Released=2024-04-27 10:11:15
+Downloaded=2025-10-13 15:13:36
+3D=Y
